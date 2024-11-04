@@ -1,4 +1,3 @@
-import React from "react";
 import Carousel from "../Components/AboutComponents/Carousel";
 import { FaExternalLinkAlt } from "react-icons/fa";
 

@@ -1,6 +1,4 @@
-
-
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
 import {
   Navigation,
   Pagination,
@@ -13,7 +11,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import smvdu_image from "../../public/conference.jpg";
+// import smvdu_image from "../../public/conference.jpg";
 import first_2019 from "../../public/2019conf/first.jpg";
 import second_2019 from "../../public/2019conf/second.jpg";
 import third_2019 from "../../public/2019conf/third.jpg";
@@ -45,6 +43,7 @@ const PreviousConfe = () => {
               <div className=" h-[350px] md:h-[550px]">
                 <img
                   className="rounded-xl w-full h-full object-contain"
+                  loading="lazy"
                   src={first_2022}
                   alt="Conference 2022 First"
                 />
@@ -54,6 +53,7 @@ const PreviousConfe = () => {
               <div className=" h-[350px] md:h-[550px]">
                 <img
                   className="rounded-xl w-full h-full object-contain"
+                  loading="lazy"
                   src={second_2022}
                   alt="Conference 2022 Second"
                 />
@@ -63,6 +63,7 @@ const PreviousConfe = () => {
               <div className=" h-[350px] md:h-[550px]">
                 <img
                   className="rounded-xl w-full h-full object-contain"
+                  loading="lazy"
                   src={third_2022}
                   alt="Conference 2022 Third"
                 />
@@ -72,6 +73,7 @@ const PreviousConfe = () => {
               <div className=" h-[350px] md:h-[550px]">
                 <img
                   className="rounded-xl w-full h-full object-contain"
+                  loading="lazy"
                   src={fourth_2022}
                   alt="Conference 2022 Fourth"
                 />
@@ -82,7 +84,25 @@ const PreviousConfe = () => {
         <div className="w-full md:w-3/6 flex flex-col gap-y-5">
           <h1 className="text-2xl text-orange-500 font-bold">ETBCT 2022</h1>
           <p className="text-lg text-justify">
-          The School of Biotechnology at Shri Mata Vaishno Devi University, in collaboration with CSIR-IIIM Jammu and BRSI, organized a three-day international conference on "Emerging Trends in Biosciences and Chemical Technology-2022" from 3rd to 5th December 2022. The event featured Dr. Jitendra Singh, Union Minister of State (Independent Charge) for Science and Technology, as the chief guest, and Prof. Manoj Kumar Dhar, former Vice Chancellor of the University of Jammu, as the guest of honor. The conference brought together renowned scientists, academics, and industry professionals from across the globe, including participants from Argentina, Brazil, Greece, Malaysia, and more. A total of thirteen sessions were conducted, focusing on contemporary issues and future trends in biosciences and chemical technology. More than 30 invited speakers and 300 participants attended the event. A book titled Practical Biochemistry, authored by Dr. Indu Bhushan, was also launched during the event. The conference concluded with a valedictory ceremony where awards were presented for the best paper presentations. The event was organized under the convenorship of Dr. Indu Bhushan and was deemed a resounding success.
+            The School of Biotechnology at Shri Mata Vaishno Devi University, in
+            collaboration with CSIR-IIIM Jammu and BRSI, organized a three-day
+            international conference on "Emerging Trends in Biosciences and
+            Chemical Technology-2022" from 3rd to 5th December 2022. The event
+            featured Dr. Jitendra Singh, Union Minister of State (Independent
+            Charge) for Science and Technology, as the chief guest, and Prof.
+            Manoj Kumar Dhar, former Vice Chancellor of the University of Jammu,
+            as the guest of honor. The conference brought together renowned
+            scientists, academics, and industry professionals from across the
+            globe, including participants from Argentina, Brazil, Greece,
+            Malaysia, and more. A total of thirteen sessions were conducted,
+            focusing on contemporary issues and future trends in biosciences and
+            chemical technology. More than 30 invited speakers and 300
+            participants attended the event. A book titled Practical
+            Biochemistry, authored by Dr. Indu Bhushan, was also launched during
+            the event. The conference concluded with a valedictory ceremony
+            where awards were presented for the best paper presentations. The
+            event was organized under the convenorship of Dr. Indu Bhushan and
+            was deemed a resounding success.
           </p>
         </div>
       </div>
@@ -105,6 +125,7 @@ const PreviousConfe = () => {
               <div className=" h-[350px] md:h-[550px]">
                 <img
                   className="rounded-xl w-full h-full object-contain"
+                  loading="lazy"
                   src={first_2019}
                   alt="Conference 2019 First"
                 />
@@ -114,6 +135,7 @@ const PreviousConfe = () => {
               <div className=" h-[350px] md:h-[550px]">
                 <img
                   className="rounded-xl w-full h-full object-contain"
+                  loading="lazy"
                   src={second_2019}
                   alt="Conference 2019 Second"
                 />
@@ -123,6 +145,7 @@ const PreviousConfe = () => {
               <div className=" h-[350px] md:h-[550px]">
                 <img
                   className="rounded-xl w-full h-full object-contain"
+                  loading="lazy"
                   src={third_2019}
                   alt="Conference 2019 Third"
                 />
@@ -132,6 +155,7 @@ const PreviousConfe = () => {
               <div className=" h-[350px] md:h-[550px]">
                 <img
                   className="rounded-xl w-full h-full object-contain"
+                  loading="lazy"
                   src={fourth_2019}
                   alt="Conference 2019 Fourth"
                 />
@@ -141,6 +165,7 @@ const PreviousConfe = () => {
               <div className=" h-[350px] md:h-[550px]">
                 <img
                   className="rounded-xl w-full h-full object-contain"
+                  loading="lazy"
                   src={fifth_2019}
                   alt="Conference 2019 Fifth"
                 />

@@ -1,4 +1,3 @@
-import React from "react";
 import Carousel from "../Components/AboutComponents/Carousel";
 import ImportantDates from "../Components/CallComponents/ImportantDates";
 import photo1 from "../../public/photo1.jpg";

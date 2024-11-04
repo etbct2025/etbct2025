@@ -1,4 +1,3 @@
-import React from 'react'
 import smvduLogo from "../../../public/logo.png"
 import { motion } from 'framer-motion'
 const WelcomeSection = () => {

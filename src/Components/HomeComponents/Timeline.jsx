@@ -1,15 +1,17 @@
-import React from "react";
 import { motion } from "framer-motion";
 
 import "../../App.css";
-import Countdown from "./Countdown";
+// import Countdown from "./Countdown";
 
 const Timeline = () => {
   return (
     <div className="timeline-section bg-sky-800   py-16 text-2xl">
-       
       <div className="text-4xl font-bold text-white  ">
-        <motion.h1 className="text-center mb-10" nitial={{ x: -1000 }} whileInView={{ x: 0 }}>
+        <motion.h1
+          className="text-center mb-10"
+          nitial={{ x: -1000 }}
+          whileInView={{ x: 0 }}
+        >
           Important Dates{" "}
         </motion.h1>
       </div>
@@ -40,7 +42,7 @@ const Timeline = () => {
             <span className="block lg:hidden right-container-arrow h-0 w-0 absolute top-[13px] z-[1] border-[15px]  border-solid border-transparent border-r-[#fff] -left-[29px]"></span>
           </div>
         </motion.div>
-         <motion.div
+        <motion.div
           initial={{ y: 100, opacity: 0 }}
           whileInView={{
             y: 0,
@@ -122,5 +124,3 @@ const Timeline = () => {
 };
 
 export default Timeline;
-
-

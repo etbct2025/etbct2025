@@ -1,4 +1,3 @@
-import React from "react";
 import AboutCon from "./AboutCon";
 import AboutSobt from "./AboutSobt";
 import AboutSmvdu from "./AboutSmvdu";

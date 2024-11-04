@@ -79,7 +79,6 @@
 
 // export default Speakers;
 
-import React from "react";
 import { motion } from "framer-motion";
 import ashok from "../../public/Speakers/ashok.png";
 import BK from "../../public/Speakers/BK.png";
@@ -99,7 +98,7 @@ import ram from "../../public/Speakers/ram.png";
 import renu from "../../public/Speakers/renu.png";
 import rubina from "../../public/Speakers/rubina.png";
 import sandeep from "../../public/Speakers/sandeep.png";
-import sanjeevjain from "../../public/Speakers/sanjeev-jain.png";
+// import sanjeevjain from "../../public/Speakers/sanjeev-jain.png";
 import saumya from "../../public/Speakers/saumya.png";
 import shilpi from "../../public/Speakers/shilpi.png";
 import tauseef from "../../public/Speakers/tauseef.png";
@@ -295,9 +294,9 @@ const Speakers = () => {
           <div className="">
             <img
               className="rounded-t-xl w-full h-[350px] object-cover "
+              loading="lazy"
               src={item.photo}
               alt={item.name}
-              loading="lazy"
             />
           </div>
           <div className="pb-5 max-h-max">

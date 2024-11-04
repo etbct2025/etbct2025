@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "../App.css";
-import { NavLink, Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { IoMdMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
 

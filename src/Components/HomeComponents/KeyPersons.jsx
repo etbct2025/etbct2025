@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Navigation,
   Pagination,
@@ -16,12 +15,13 @@ import cg_profile from "../../../public/keyPersons/cg.jpg"
 import convener_profile from "../../../public/keyPersons/indubhusan.jpg"
 import registrar from "../../../public/keyPersons/registrar.webp"
 import ratna from "../../../public/members/ratna.jpeg"
-import sharada from "../../../public/members/sharada.jpeg"
+// import sharada from "../../../public/members/sharada.jpeg"
 import { motion } from "framer-motion";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+
 const KeyPersons = () => {
   return (
     <div className="key-person-section py-16 px-8 sm:px-16">
